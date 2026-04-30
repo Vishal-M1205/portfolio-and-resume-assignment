@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans";
+}
+body{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.resume{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 500px;
+    border: solid 2px rgba(0, 0, 0, 0.327);
+}
+.img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   margin: 20px 0px 20px 20px;
+   
+}
+.name{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+    padding-right: 10px;
+   
+}
+.name p{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    background-color: navy;
+    align-items: start;
+    justify-content: space-around;
+}
+.body{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+#contact{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    padding: 10px 0px;
+}
+#contact p,a{
+    font-size: 12px;
+    text-decoration: none;
+    color: navy;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgba(0, 0, 0, 0.432);
+    width: 500px;
+    height: 490px;
+    
+}
+
+#edu{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#edu h1{
+   font-size: 20px;
+   
+}
+#edu li{
+font-size: 11px;
+list-style: none;
+}
+#edu p{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+#edu p:last-child{
+    margin-bottom: 10px;
+}
+
+#edu li:first-child{
+    margin-top: 5px;
+}
+#skill{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#skill h1{
+   font-size: 20px;
+   
+}
+#skill li{
+font-size: 11px;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+#skill li:first-child{
+    margin-top: 5px;
+}
+#skill li:last-child{
+    margin-bottom: 5px;
+}
+#cert{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#cert h1{
+   font-size: 20px;
+   
+}
+#cert li{
+font-size: 11px;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+#cert li:first-child{
+    margin-top: 5px;
+}
+#cert li:last-child{
+    margin-bottom: 5px;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#project{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#project h1{
+   font-size: 20px;
+   
+}
+#project li{
+font-size: 11px;
+padding-bottom: 5px;
+margin-left: 10px;
+margin-top: 5px;
+}
+#project p{
+    font-size: 11px;
+    text-align: justify;
+}
+
+
+
+#award{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#award h1{
+   margin-top: 10px;
+   font-size: 20px;
+   
+}
+#award li{
+font-size: 11px;
+padding-bottom: 5px;
+
+margin-top: 5px;
+list-style: none;
+}
+#award p{
+    font-size: 11px;
+    text-align: justify;
+}
+
+#award li:last-child{
+    margin-bottom: 5px;
+}
+
+@media (max-width:600px){
+    .resume{
+        max-width: 400px;
+    }
+    .img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+   margin: 10px 10px 10px 10px; 
+}
+.name{
+    font-size: 20px;
+    margin-top: 15px;
+    padding-right: 10px; 
+    margin-top: 20px; 
+}
+.name p{
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+.body{
+    margin-top: 10px;
+}
+#contact{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    padding: 5px 0px;
+}
+#contact p,a{
+    font-size: 9px;
+    text-decoration: none;
+    color: navy;
+}
+#edu{
+    margin-left: 15px;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+#edu h1{
+   font-size: 15px;
+   
+}
+#edu li{
+font-size: 9px;
+list-style: none;
+}
+#edu p{
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+#edu p:last-child{
+    margin-bottom: 10px;
+}
+
+#edu li:first-child{
+    margin-top: 5px;
+}
+#skill{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#skill h1{
+   font-size: 15px;
+   
+}
+#skill li{
+font-size: 9px;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+#skill li:first-child{
+    margin-top: 5px;
+}
+#skill li:last-child{
+    margin-bottom: 5px;
+}
+#cert{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#cert h1{
+   font-size: 15px;
+   
+}
+#cert li{
+font-size: 9px;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+#cert li:first-child{
+    margin-top: 5px;
+}
+#cert li:last-child{
+    margin-bottom: 5px;
+}
+#project{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#project h1{
+   font-size: 15px;
+   
+}
+#project li{
+font-size: 9px;
+padding-bottom: 5px;
+margin-left: 10px;
+margin-top: 5px;
+}
+#project p{
+    font-size: 9px;
+    text-align: justify;
+}
+#award{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#award h1{
+   margin-top: 10px;
+   font-size: 15px;
+   
+}
+#award li{
+font-size: 9px;
+padding-bottom: 5px;
+
+margin-top: 5px;
+list-style: none;
+}
+#award p{
+    font-size: 9px;
+    text-align: justify;
+}
+
+#award li:last-child{
+    margin-bottom: 5px;
+}
+}
