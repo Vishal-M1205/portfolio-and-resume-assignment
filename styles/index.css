@@ -229,12 +229,43 @@ font-size: 30px;
     padding: 30px;
     border-radius: 20px;
     transition:  transform 0.4s ease;
+    scroll-behavior: smooth;
+    anchor-name: --pro;
+    scroll-snap-type: x mandatory;
 }
+
+.pro::-webkit-scrollbar{
+    display: none;
+}
+.pro::scroll-button(right),.pro::scroll-button(left){
+      content: '→';
+      border: none;
+      background-color: #3B82F6;
+      color: white;
+      border-radius: 50%;
+      padding: 5px;
+      height: 60px;
+      width: 60px;
+      cursor: pointer;
+      position: fixed;
+      position-anchor: --pro;
+      position-area: right center;
+}
+.pro::scroll-button(left){
+    content: '←';
+    position-area: left center;
+}
+#pro1{
+    display: flex;
+    flex: 0 0 20em;
+    gap: 30px;
+    scroll-snap-align: start;
+}
+
 .pro:hover{
 box-shadow: 0 10px 25px rgba(251, 191, 36, 0.5);
 transform: scale(1.04);
-scrollbar-width: thin;
-scrollbar-color: #3B82F6 transparent;
+
 
 }
 
@@ -248,13 +279,11 @@ font-size: 30px;
 #pro-h2:hover{
     text-decoration:underline #3B82F6 solid 5px;
 }
-#pro1{
-    display: flex;
-    gap: 30px;
-}
+
 #pro1-text{
     width: 350px;
     height: 300px;
+    margin-left: 20px;
 }
 #pro1-text a{
  text-decoration: none;
@@ -283,7 +312,7 @@ font-size: 30px;
     width: 600px;
     height: 300px;
     padding-left: 10px;
-    margin-right: 40px;
+    margin-right: 10px;
     border-radius: 40px;
 }
 
