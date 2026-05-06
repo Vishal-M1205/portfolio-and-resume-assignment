@@ -14,7 +14,7 @@ body{
 }
 .resume{
     background-color: aliceblue;
-    height: 100vh;
+    height: 700px;
     width: 500px;
     border: solid 2px rgba(0, 0, 0, 0.327);
 }
@@ -104,7 +104,8 @@ list-style: none;
 #skill li{
 font-size: 11px;
 padding-bottom: 10px;
-margin-left: 10px;
+
+list-style: none;
 }
 
 #skill li:first-child{
@@ -124,7 +125,8 @@ margin-left: 10px;
 #cert li{
 font-size: 11px;
 padding-bottom: 10px;
-margin-left: 10px;
+
+list-style: none;
 }
 
 #cert li:first-child{
@@ -150,8 +152,9 @@ margin-left: 10px;
 #project li{
 font-size: 11px;
 padding-bottom: 5px;
-margin-left: 10px;
+
 margin-top: 5px;
+list-style: none;
 }
 #project p{
     font-size: 11px;

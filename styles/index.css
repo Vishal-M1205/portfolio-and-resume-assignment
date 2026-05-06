@@ -7,7 +7,7 @@ font-family: "Google Sans";
 scroll-behavior: smooth;
 }
 body{
-    background:  linear-gradient(to bottom, #FFFFFF, #f7fafb);
+    background:  linear-gradient(135deg, #c4f0ff00 10%, #c4f0ffa5 90%);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
